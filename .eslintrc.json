@@ -1,0 +1,14 @@
+{
+  "plugins": ["@typescript-eslint", "prettier"],
+  "extends": [
+    "eslint:recommended",
+    "next/core-web-vitals",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "ignorePatterns": [
+    "src/graphql/__generated__",
+    "src/app/api/graphql/.mesh",
+    "!src/app/api/graphql/.meshrc.ts"
+  ]
+}
