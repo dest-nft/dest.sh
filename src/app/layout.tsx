@@ -1,9 +1,19 @@
 import React, { PropsWithChildren } from "react";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const clashDisplay = localFont({
+  src: "../../public/fonts/clash-display.ttf",
+  display: "swap",
+  variable: "--font-clash-display",
+});
+
+const outfit = localFont({
+  src: "../../public/fonts/outfit.ttf",
+  display: "swap",
+  variable: "--font-outfit",
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -12,8 +22,11 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: PropsWithChildren) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html
+      lang="en"
+      className={`${clashDisplay.variable} ${outfit.variable} font-outfit`}
+    >
+      <body>{children}</body>
     </html>
   );
 }
