@@ -14,6 +14,7 @@
     "migration:run": "node -r esbuild-register src/services/database/migrate.ts"
   },
   "dependencies": {
+    "@vercel/analytics": "^1.1.1",
     "@vercel/postgres": "^0.5.1",
     "drizzle-orm": "^0.29.0",
     "drizzle-zod": "^0.5.1",
