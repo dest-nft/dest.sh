@@ -1,6 +1,7 @@
 import React, { PropsWithChildren } from "react";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
+import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 
 const clashDisplay = localFont({
@@ -27,6 +28,7 @@ export default function RootLayout({ children }: PropsWithChildren) {
       className={`${clashDisplay.variable} ${outfit.variable} font-outfit`}
     >
       <body>{children}</body>
+      <Analytics />
     </html>
   );
 }
