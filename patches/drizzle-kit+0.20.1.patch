@@ -1,0 +1,13 @@
+diff --git a/node_modules/drizzle-kit/bin.cjs b/node_modules/drizzle-kit/bin.cjs
+index 63a87bb..82b935c 100755
+--- a/node_modules/drizzle-kit/bin.cjs
++++ b/node_modules/drizzle-kit/bin.cjs
+@@ -11171,7 +11171,7 @@ var require_node2 = __commonJS({
+           sourcefile: filename,
+           loader: getLoader(filename),
+           sourcemap: "both",
+-          target: options.target,
++          target: "es6",
+           jsxFactory: options.jsxFactory,
+           jsxFragment: options.jsxFragment,
+           format,
