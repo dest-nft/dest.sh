@@ -21,6 +21,7 @@
     "next": "14.0.2",
     "react": "^18",
     "react-dom": "^18",
+    "telegraf": "^4.15.0",
     "zod": "^3.22.4"
   },
   "devDependencies": {
