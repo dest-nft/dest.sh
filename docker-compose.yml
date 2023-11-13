@@ -7,6 +7,7 @@ services:
       - "5432:5432"
     volumes:
       - dest-landing-postgres-data:/var/lib/postgresql/data/pgdata
+      - ./drizzle/migrations:/docker-entrypoint-initdb.d
     environment:
       POSTGRES_DB: "dest-landing"
       POSTGRES_USER: "dest-landing"
