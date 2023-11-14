@@ -9,6 +9,8 @@
     "lint": "next lint --max-warnings=0",
     "lint:fix": "next lint --fix",
     "typecheck": "tsc --noEmit",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
     "postinstall": "patch-package",
     "migration:generate": "drizzle-kit generate:pg",
     "migration:run": "node -r esbuild-register src/services/database/migrate.ts"
@@ -24,6 +26,14 @@
     "zod": "^3.22.4"
   },
   "devDependencies": {
+    "@storybook/addon-essentials": "^7.5.3",
+    "@storybook/addon-interactions": "^7.5.3",
+    "@storybook/addon-links": "^7.5.3",
+    "@storybook/addon-onboarding": "^1.0.8",
+    "@storybook/blocks": "^7.5.3",
+    "@storybook/nextjs": "^7.5.3",
+    "@storybook/react": "^7.5.3",
+    "@storybook/testing-library": "^0.2.2",
     "@total-typescript/ts-reset": "^0.5.1",
     "@types/node": "^20",
     "@types/react": "^18",
@@ -38,10 +48,12 @@
     "eslint-config-next": "14.0.2",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-storybook": "^0.6.15",
     "patch-package": "^8.0.0",
     "pg": "^8.11.3",
     "postcss": "^8",
     "prettier": "^3.0.3",
+    "storybook": "^7.5.3",
     "tailwindcss": "^3.3.0",
     "typescript": "^5"
   }
