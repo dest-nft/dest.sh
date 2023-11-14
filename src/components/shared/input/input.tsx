@@ -1,8 +1,4 @@
-import {
-  ForwardedRef,
-  TextareaHTMLAttributes,
-  forwardRef
-} from "react";
+import { ForwardedRef, TextareaHTMLAttributes, forwardRef } from "react";
 
 interface InputProps
   extends Omit<TextareaHTMLAttributes<HTMLTextAreaElement>, "className"> {
@@ -11,7 +7,7 @@ interface InputProps
 
 export const Input = forwardRef(function Input(
   { labelText, id, children, rows, ...props }: InputProps,
-  ref: ForwardedRef<HTMLTextAreaElement>
+  ref: ForwardedRef<HTMLTextAreaElement>,
 ) {
   return (
     <>

@@ -5,7 +5,7 @@ interface ButtonProps
 
 export const Button = forwardRef(function Button(
   { children, ...otherProps }: ButtonProps,
-  ref: ForwardedRef<HTMLButtonElement>
+  ref: ForwardedRef<HTMLButtonElement>,
 ) {
   return (
     <button

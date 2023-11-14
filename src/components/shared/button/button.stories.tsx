@@ -18,6 +18,6 @@ export const Default: Story = {
 export const OnClick: Story = {
   args: {
     children: <>Click me</>,
-    onClick: () => alert("Clicked!")
-  }
-}
+    onClick: () => alert("Clicked!"),
+  },
+};
