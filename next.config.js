@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  eslint: { ignoreDuringBuilds: true },
+  eslint: { ignoreDuringBuilds: true, dirs: ["src", ".storybook"] },
   typescript: { ignoreBuildErrors: true },
 };
 
