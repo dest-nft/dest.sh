@@ -1,20 +1,8 @@
 import React, { PropsWithChildren } from "react";
 import type { Metadata } from "next";
-import localFont from "next/font/local";
 import { Analytics } from "@vercel/analytics/react";
+import { clashDisplay, outfit } from "@/fonts";
 import "./globals.css";
-
-const clashDisplay = localFont({
-  src: "../../public/fonts/clash-display.ttf",
-  display: "swap",
-  variable: "--font-clash-display",
-});
-
-const outfit = localFont({
-  src: "../../public/fonts/outfit.ttf",
-  display: "swap",
-  variable: "--font-outfit",
-});
 
 export const metadata: Metadata = {
   title: "Create Next App",
