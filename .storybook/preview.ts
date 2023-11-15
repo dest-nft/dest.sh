@@ -1,6 +1,6 @@
 import type { Preview } from "@storybook/react";
 import React from "react";
-import { clashDisplay, outfit } from "../src/fonts";
+import { clashDisplay, outfit } from "@/fonts";
 import "../src/tailwind.css";
 
 const preview: Preview = {
