@@ -1,5 +1,4 @@
-import { config } from "dotenv";
-config({ path: ".env.local" });
+import "@/config";
 import { migrate as migrateVercel } from "drizzle-orm/vercel-postgres/migrator";
 import { migrate as migrateNode } from "drizzle-orm/node-postgres/migrator";
 import { db } from "@/services/database/connection";
