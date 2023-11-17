@@ -16,6 +16,7 @@
     "storybook:build": "storybook build"
   },
   "dependencies": {
+    "@radix-ui/react-accordion": "^1.1.2",
     "@vercel/analytics": "^1.1.1",
     "@vercel/postgres": "^0.5.1",
     "drizzle-orm": "^0.29.0",
@@ -52,6 +53,7 @@
     "patch-package": "^8.0.0",
     "pg": "^8.11.3",
     "postcss": "^8",
+    "postcss-import": "^15.1.0",
     "prettier": "^3.1.0",
     "prettier-plugin-tailwindcss": "^0.5.7",
     "storybook": "^7.5.3",
