@@ -17,7 +17,7 @@ export const Item = React.forwardRef<HTMLDivElement, ItemProps>(function Item(
       value={title}
     >
       <RadixAccordion.Header className="flex">
-        <RadixAccordion.Trigger className="md:data-[state=open]:pb-[20px] data-[state=open]:pb-[16px] group flex flex-1  cursor-pointer items-center justify-between bg-gray p-5 text-start text-xl font-medium leading-none outline-none md:p-10 md:text-3xl">
+        <RadixAccordion.Trigger className="group flex flex-1 cursor-pointer items-center  justify-between bg-gray p-5 text-start text-xl font-medium leading-none outline-none data-[state=open]:pb-[16px] md:p-10 md:text-3xl md:data-[state=open]:pb-[20px]">
           {title}
           <Image
             className="ms-4 flex h-auto w-4 shrink-0 object-contain transition-transform duration-200 ease-[cubic-bezier(0.87,_0,_0.13,_1)] group-data-[state=open]:rotate-180 md:w-[30px]"
