@@ -3,6 +3,7 @@ import * as RadixAccordion from "@radix-ui/react-accordion";
 import { Item } from "./Item";
 
 const meta: Meta<typeof Item> = {
+  title: "Design System/Accordion/Item",
   component: Item,
   tags: ["autodocs"],
 };
@@ -12,6 +13,7 @@ export default meta;
 type Story = StoryObj<typeof Item>;
 
 export const Default = {
+  name: "Item",
   args: {
     title: "Title",
     children:
