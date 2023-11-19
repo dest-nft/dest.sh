@@ -16,8 +16,6 @@ export const Twitter = {
   args: {
     href: "https://twitter.com/",
     image: "/icons/twitter.svg",
-    width: 34,
-    height: 34,
   },
 } satisfies Story;
 
@@ -27,7 +25,5 @@ export const LinkedIn = {
   args: {
     href: "https://linkedin.com/",
     image: "/icons/linkedin.svg",
-    width: 34,
-    height: 34,
   },
 } satisfies Story;

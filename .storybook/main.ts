@@ -8,7 +8,10 @@ const config: StorybookConfig = {
     "@storybook/addon-essentials",
     "@storybook/addon-interactions",
   ],
-  framework: { name: "@storybook/nextjs" },
+  framework: {
+    name: "@storybook/nextjs",
+    options: {},
+  },
   docs: { autodocs: "tag" },
   staticDirs: [
     "../public",
@@ -17,11 +20,13 @@ const config: StorybookConfig = {
       to: "public/fonts",
     },
   ],
-  webpackFinal: async (config) => {
-    config.resolve.plugins = config.resolve.plugins ?? [];
-    config.resolve.plugins.push(
-      new TsconfigPathsPlugin({ extensions: config.resolve.extensions }),
-    );
+  webpackFinal: (config) => {
+    if (config.resolve) {
+      config.resolve.plugins = config.resolve.plugins ?? [];
+      config.resolve.plugins.push(
+        new TsconfigPathsPlugin({ extensions: config.resolve.extensions }),
+      );
+    }
 
     return config;
   },
