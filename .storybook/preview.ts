@@ -14,13 +14,13 @@ const preview: Preview = {
     },
   },
   decorators: [
-    (Story) => {
+    (story) => {
       return React.createElement(
         "div",
         {
           className: `${clashDisplay.variable} ${outfit.variable} font-outfit`,
         },
-        React.createElement(Story),
+        story(),
       );
     },
   ],

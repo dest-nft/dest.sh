@@ -1,9 +1,0 @@
-.accordion-trigger {
-  &[data-state="open"] {
-    padding-bottom: 10px;
-
-    @media (min-width: 768px) {
-      padding-bottom: 20px;
-    }
-  }
-}
