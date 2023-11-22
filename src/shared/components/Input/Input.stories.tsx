@@ -4,7 +4,7 @@ import { Input } from "./Input";
 const meta: Meta<typeof Input> = {
   title: "Design System/Input",
   component: Input,
-  tags: ["autodocs"]
+  tags: ["autodocs"],
 };
 
 export default meta;

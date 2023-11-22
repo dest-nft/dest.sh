@@ -13,7 +13,7 @@ export const Input = forwardRef(function Input(
     <>
       <label
         htmlFor={id}
-        className="mb-2 block text-base font-medium text-start text-white"
+        className="mb-2 block text-start text-base font-medium text-white"
       >
         {labelText}
       </label>
@@ -21,7 +21,7 @@ export const Input = forwardRef(function Input(
         {...props}
         id={id}
         rows={rows ?? 1}
-        className="w-full rounded-xl border leading-none border-borderColor bg-black py-4 px-5 text-base font-medium text-white outline-none focus:border-green focus:shadow-md resize-none"
+        className="w-full resize-none rounded-xl border border-borderColor bg-black px-5 py-4 text-base font-medium leading-none text-white outline-none focus:border-green focus:shadow-md"
         ref={ref}
       >
         {children}
