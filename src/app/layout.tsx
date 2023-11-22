@@ -13,9 +13,9 @@ export default function RootLayout({ children }: PropsWithChildren) {
   return (
     <html
       lang="en"
-      className={`${clashDisplay.variable} ${outfit.variable} font-outfit`}
+      className={`${clashDisplay.variable} ${outfit.variable} overflow-hidden bg-black bg-noise bg-[length:500px] font-outfit`}
     >
-      <body>{children}</body>
+      <body className="backdrop-brightness-[0.2]">{children}</body>
       <Analytics />
     </html>
   );
