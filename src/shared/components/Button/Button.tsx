@@ -10,7 +10,7 @@ export const Button = forwardRef(function Button(
   return (
     <button
       {...otherProps}
-      className="w-full h-[42px] md:h-[52px] flex justify-center items-center bg-green hover:bg-yellow rounded-xl px-1 text-sm lg:text-base font-medium text-black outline-none cursor-pointer"
+      className="flex h-[42px] w-full cursor-pointer items-center justify-center rounded-xl bg-green px-1 text-sm font-medium text-black outline-none hover:bg-yellow md:h-[52px] lg:text-base"
       ref={ref}
     >
       {children}

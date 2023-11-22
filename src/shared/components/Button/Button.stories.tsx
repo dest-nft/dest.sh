@@ -4,7 +4,7 @@ import type { Meta, StoryObj } from "@storybook/react";
 const meta: Meta<typeof Button> = {
   title: "Design System/Button",
   component: Button,
-  tags: ["autodocs"]
+  tags: ["autodocs"],
 };
 
 export default meta;
