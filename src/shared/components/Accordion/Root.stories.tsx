@@ -13,15 +13,13 @@ export default meta;
 
 type Story = StoryObj<typeof Root>;
 
-export const Single = {
-  name: "Single Item",
+export const SingleItem = {
   args: {
     children: <Item {...ItemStory.args} />,
   },
 } satisfies Story;
 
-export const Multiple = {
-  name: "Multiple Items",
+export const MultipleItems = {
   args: {
     children: (
       <>

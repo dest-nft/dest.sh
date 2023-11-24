@@ -12,7 +12,6 @@ export default meta;
 type Story = StoryObj<typeof SocialLink>;
 
 export const Twitter = {
-  name: "Twitter",
   args: {
     href: "https://twitter.com/",
     image: "/icons/twitter.svg",
@@ -22,7 +21,6 @@ export const Twitter = {
 
 // TODO: Use Discord
 export const LinkedIn = {
-  name: "LinkedIn",
   args: {
     href: "https://linkedin.com/",
     image: "/icons/linkedin.svg",
