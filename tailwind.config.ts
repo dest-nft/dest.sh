@@ -24,6 +24,7 @@ const config: Config = {
         btnBGHeaderHEXItem: "rgba(34, 34, 34, 0.5)",
         borderColor: "rgba(255, 255, 255, 0.7)",
         transparent: "transparent",
+        emojiBgGray: "rgba(22, 22, 22, 1)",
       },
     },
   },
