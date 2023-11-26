@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 
 interface IEEmojiProps {
-  type: "green-fire" | "sparkles-cat" | "tongue-cat";
+  type: "green-fire" | "green-heart-eyes" | "sparkles-cat" | "tongue-cat";
   top?: number;
   bottom?: number;
   left?: number;

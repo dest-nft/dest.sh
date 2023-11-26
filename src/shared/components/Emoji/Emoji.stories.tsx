@@ -15,6 +15,10 @@ export const GreenFire = {
   args: { type: "green-fire" },
 } satisfies Story;
 
+export const GreenHeartEyes = {
+  args: { type: "green-heart-eyes" },
+} satisfies Story;
+
 export const SparklesCat = {
   args: { type: "sparkles-cat" },
 } satisfies Story;
