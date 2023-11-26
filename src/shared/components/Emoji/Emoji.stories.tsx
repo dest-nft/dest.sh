@@ -5,6 +5,13 @@ const meta: Meta<typeof Emoji> = {
   title: "Design System/Emoji",
   component: Emoji,
   tags: ["autodocs"],
+  decorators: [
+    (Story) => (
+      <div className="h-20 w-20">
+        <Story />
+      </div>
+    ),
+  ],
 };
 
 export default meta;
