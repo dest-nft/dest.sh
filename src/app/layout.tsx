@@ -2,6 +2,7 @@ import React, { PropsWithChildren } from "react";
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/react";
 import { clashDisplay, outfit } from "@/fonts";
+import { NoiseBackground } from "@/shared/components/NoiseBackground";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -12,10 +13,13 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: PropsWithChildren) {
   return (
     <html
+      className={`${clashDisplay.variable} ${outfit.variable} font-outfit`}
       lang="en"
-      className={`${clashDisplay.variable} ${outfit.variable} overflow-hidden bg-black bg-noise bg-[length:500px] font-outfit`}
     >
-      <body className="backdrop-brightness-[0.2]">{children}</body>
+      <body className="bg-black">
+        <NoiseBackground />
+        {children}
+      </body>
       <Analytics />
     </html>
   );
