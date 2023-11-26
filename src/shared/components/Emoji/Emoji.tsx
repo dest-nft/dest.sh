@@ -7,6 +7,7 @@ interface IEEmojiProps {
   bottom?: number;
   left?: number;
   right?: number;
+  rotate?: `${number}deg`;
 }
 
 export function Emoji({ type, ...positions }: IEEmojiProps) {
