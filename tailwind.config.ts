@@ -8,10 +8,6 @@ const config: Config = {
         clashDisplay: ["var(--font-clash-display)", "sans-serif"],
         outfit: ["var(--font-outfit)", "sans-serif"],
       },
-      backgroundImage: {
-        "noise": "url('/images/noise.svg')",
-      },
-
       colors: {
         gray: "rgba(98, 98, 98, 0.25)",
         btnBG: "rgba(255, 255, 255, 0.15)",
