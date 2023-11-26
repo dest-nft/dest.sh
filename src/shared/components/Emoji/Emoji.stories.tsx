@@ -5,6 +5,13 @@ const meta: Meta<typeof Emoji> = {
   title: "Design System/Emoji",
   component: Emoji,
   tags: ["autodocs"],
+  decorators: [
+    (Story) => (
+      <div className="h-20 w-20">
+        <Story />
+      </div>
+    ),
+  ],
 };
 
 export default meta;
@@ -15,10 +22,18 @@ export const GreenFire = {
   args: { type: "green-fire" },
 } satisfies Story;
 
+export const GreenHeartEyes = {
+  args: { type: "green-heart-eyes" },
+} satisfies Story;
+
 export const SparklesCat = {
   args: { type: "sparkles-cat" },
 } satisfies Story;
 
 export const TongueCat = {
   args: { type: "tongue-cat" },
+} satisfies Story;
+
+export const Rotated = {
+  args: { type: "tongue-cat", rotate: "45deg" },
 } satisfies Story;
