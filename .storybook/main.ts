@@ -16,8 +16,8 @@ const config: StorybookConfig = {
   staticDirs: [
     "../public",
     {
-      from: "../public/fonts",
-      to: "public/fonts",
+      from: "../public",
+      to: "public",
     },
   ],
   webpackFinal: (config) => {
