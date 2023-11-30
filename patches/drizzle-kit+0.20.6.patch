@@ -1,8 +1,8 @@
 diff --git a/node_modules/drizzle-kit/bin.cjs b/node_modules/drizzle-kit/bin.cjs
-index 6dd14b7..5146475 100755
+index 4335b1f..1f5db5c 100755
 --- a/node_modules/drizzle-kit/bin.cjs
 +++ b/node_modules/drizzle-kit/bin.cjs
-@@ -11171,7 +11171,7 @@ var require_node2 = __commonJS({
+@@ -11218,7 +11218,7 @@ var require_node2 = __commonJS({
            sourcefile: filename,
            loader: getLoader(filename),
            sourcemap: "both",
