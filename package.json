@@ -42,7 +42,7 @@
     "@typescript-eslint/eslint-plugin": "^6.13.1",
     "autoprefixer": "^10.0.1",
     "dotenv": "^16.3.1",
-    "drizzle-kit": "^0.20.2",
+    "drizzle-kit": "^0.20.6",
     "esbuild": "^0.19.8",
     "esbuild-register": "^3.5.0",
     "eslint": "^8",
