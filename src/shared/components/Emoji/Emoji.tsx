@@ -1,20 +1,19 @@
 import React from "react";
 import Image from "next/image";
+import { twMerge } from "tailwind-merge";
 
 interface IEEmojiProps {
   type: "green-fire" | "green-heart-eyes" | "sparkles-cat" | "tongue-cat";
-  top?: number;
-  bottom?: number;
-  left?: number;
-  right?: number;
-  rotate?: `${number}deg`;
+  className?: string;
 }
 
-export function Emoji({ type, ...positions }: IEEmojiProps) {
+export function Emoji({ type, className }: IEEmojiProps) {
   return (
     <div
-      className="fixed w-fit rounded-full border border-yellow p-3 backdrop-blur"
-      style={{ ...positions }}
+      className={twMerge(
+        "w-fit rounded-full border border-yellow p-3 backdrop-blur",
+        className,
+      )}
     >
       <Image src={`/emojis/${type}.png`} alt="emoji" width={48} height={48} />
     </div>
