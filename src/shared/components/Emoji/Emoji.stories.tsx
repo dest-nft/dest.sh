@@ -33,7 +33,3 @@ export const SparklesCat = {
 export const TongueCat = {
   args: { type: "tongue-cat" },
 } satisfies Story;
-
-export const Rotated = {
-  args: { type: "tongue-cat", rotate: "45deg" },
-} satisfies Story;
