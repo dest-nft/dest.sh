@@ -3,10 +3,10 @@ const PENDING = "PENDING";
 const SUCCESS = "SUCCESS";
 const FAIL = "FAIL";
 
-export type IdleResult<I = void> = { tag: typeof IDLE; value: I };
+export type IdleResult<I = never> = { tag: typeof IDLE; value: I };
 export type PendingResult = { tag: typeof PENDING };
-export type SuccessResult<S> = { tag: typeof SUCCESS; value: S };
-export type FailResult<E> = { tag: typeof FAIL; error: E };
+export type SuccessResult<S = never> = { tag: typeof SUCCESS; value: S };
+export type FailResult<E = unknown> = { tag: typeof FAIL; error: E };
 
 export type ActionResult<I, S, E> =
   | IdleResult<I>
