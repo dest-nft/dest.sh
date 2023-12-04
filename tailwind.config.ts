@@ -16,6 +16,7 @@ const config: Config = {
         black: "rgba(0, 0, 0, 1)",
         green: "rgba(17, 205, 126, 1)",
         yellow: "rgba(242, 254, 103, 1)",
+        red: "rgba(255, 68, 69, 1)",
         btnBGHeaderHEX: "rgba(26, 26, 26, 1)",
         btnBGHeaderHEXItem: "rgba(34, 34, 34, 0.5)",
         borderColor: "rgba(255, 255, 255, 0.7)",
