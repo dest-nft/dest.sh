@@ -48,7 +48,7 @@
     "esbuild-register": "^3.5.0",
     "eslint": "^8",
     "eslint-config-next": "14.0.3",
-    "eslint-config-prettier": "^9.0.0",
+    "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.0.1",
     "eslint-plugin-storybook": "^0.6.15",
     "patch-package": "^8.0.0",
