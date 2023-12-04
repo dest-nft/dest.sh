@@ -8,7 +8,7 @@ export type PendingResult = { tag: typeof PENDING };
 export type SuccessResult<S = never> = { tag: typeof SUCCESS; value: S };
 export type FailResult<E = unknown> = { tag: typeof FAIL; error: E };
 
-export type ActionResult<I, S, E> =
+export type ActionResult<I = never, S = never, E = unknown> =
   | IdleResult<I>
   | PendingResult
   | SuccessResult<S>
