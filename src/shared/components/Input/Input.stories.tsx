@@ -8,35 +8,31 @@ const meta: Meta<typeof Input> = {
 };
 
 export default meta;
-export type Story = StoryObj<typeof Input>;
 
-export const Default: Story = {
+type Story = StoryObj<typeof Input>;
+
+export const Default = {
   args: {
     placeholder: "Enter your name",
     id: "name",
     labelText: "Enter your name",
   },
-  decorators: [
-    (Story) => (
-      <div className="bg-btnBGHeaderHEXItem">
-        <Story />
-      </div>
-    ),
-  ],
-};
+} satisfies Story;
 
-export const Textarea: Story = {
+export const Textarea = {
   args: {
     placeholder: "Enter your description",
     id: "description",
     labelText: "Enter your description",
     rows: 3,
   },
-  decorators: [
-    (Story) => (
-      <div className="bg-btnBGHeaderHEXItem">
-        <Story />
-      </div>
-    ),
-  ],
-};
+} satisfies Story;
+
+export const WithError = {
+  args: {
+    placeholder: "Enter your name",
+    id: "name",
+    labelText: "Enter your name",
+    error: "This field is required",
+  },
+} satisfies Story;
