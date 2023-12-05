@@ -1,5 +1,5 @@
-import { Button } from "./Button";
 import type { Meta, StoryObj } from "@storybook/react";
+import { Button } from "./Button";
 
 const meta: Meta<typeof Button> = {
   title: "Design System/Button",
@@ -11,15 +11,15 @@ export default meta;
 
 type Story = StoryObj<typeof Button>;
 
-export const Default: Story = {
+export const Default = {
   args: {
-    children: <>Button</>,
+    children: "Button",
   },
-};
+} satisfies Story;
 
-export const OnClick: Story = {
+export const Disabled = {
   args: {
-    children: <>Click me</>,
-    onClick: () => alert("Clicked!"),
+    children: "Button",
+    disabled: true,
   },
-};
+} satisfies Story;
