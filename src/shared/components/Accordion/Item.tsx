@@ -1,4 +1,4 @@
-import React, { PropsWithChildren } from "react";
+import { PropsWithChildren } from "react";
 import * as RadixAccordion from "@radix-ui/react-accordion";
 import Image from "next/image";
 
