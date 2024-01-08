@@ -1,4 +1,4 @@
-import React, { PropsWithChildren } from "react";
+import { PropsWithChildren } from "react";
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/react";
 import { clashDisplay, outfit } from "@/fonts";

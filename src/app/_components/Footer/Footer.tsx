@@ -1,4 +1,3 @@
-import React from "react";
 import { DestLink } from "@/shared/components/DestLink";
 import { SocialLink } from "@/app/_components/Footer/SocialLink";
 import { DevBrotherLink } from "@/app/_components/Footer/DevBrotherLink";
