@@ -1,4 +1,4 @@
-import { PropsWithChildren } from "react";
+import { forwardRef, PropsWithChildren } from "react";
 import * as RadixAccordion from "@radix-ui/react-accordion";
 import Image from "next/image";
 
@@ -6,7 +6,7 @@ interface ItemProps extends PropsWithChildren {
   title: string;
 }
 
-export const Item = React.forwardRef<HTMLDivElement, ItemProps>(function Item(
+export const Item = forwardRef<HTMLDivElement, ItemProps>(function Item(
   { title, children },
   forwardedRef,
 ) {
