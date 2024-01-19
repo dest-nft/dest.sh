@@ -1,5 +1,5 @@
 import type { Preview } from "@storybook/react";
-import React from "react";
+import { createElement } from "react";
 import { clashDisplay, outfit } from "@/fonts";
 import "../src/tailwind.css";
 
@@ -24,7 +24,7 @@ const preview: Preview = {
   },
   decorators: [
     (story) => {
-      return React.createElement(
+      return createElement(
         "div",
         {
           className: `${clashDisplay.variable} ${outfit.variable} font-outfit`,
