@@ -18,7 +18,7 @@
   "dependencies": {
     "@radix-ui/react-accordion": "^1.1.2",
     "@vercel/analytics": "^1.1.1",
-    "@vercel/postgres": "^0.5.1",
+    "@vercel/postgres": "^0.7.1",
     "drizzle-orm": "^0.29.3",
     "drizzle-zod": "^0.5.1",
     "next": "14.1.0",
