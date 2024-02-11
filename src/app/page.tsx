@@ -1,10 +1,13 @@
-import { Footer } from "@/app/_components/Footer";
+import { Footer, Header } from "@/app/_components";
 
 export default function Index() {
   return (
     <>
-      <main className="container mx-auto" />
-      <Footer />
+      <main className="h-screen w-screen">
+        <div className="container mx-auto" />
+        <Header />
+        <Footer />
+      </main>
     </>
   );
 }

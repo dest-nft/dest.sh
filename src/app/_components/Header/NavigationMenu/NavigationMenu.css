@@ -1,0 +1,137 @@
+/* reset */
+button {
+  all: unset;
+}
+
+div[data-radix-popper-content-wrapper] {
+  z-index: 100 !important;
+  top: -58px !important;
+  width: 300px !important;
+  left: -20px !important;
+}
+
+@media (min-width: 768px) {
+  div[data-radix-popper-content-wrapper] {
+    left: -35px !important;
+    top: -65px !important;
+  }
+
+  @media (min-width: 1350px) {
+    div[data-radix-popper-content-wrapper] {
+      left: -75px !important;
+      left: -125px !important;
+    }
+  }
+}
+
+span[data-radix-focus-guard] {
+  position: fixed;
+  top: 0;
+  z-index: 60;
+  width: 100%;
+  height: 100%;
+  opacity: initial !important;
+  backdrop-filter: blur(3px);
+}
+
+.DropdownMenuArrow {
+  display: none !important;
+}
+
+.DropdownMenuContent {
+  min-width: 220px;
+  animation-duration: 400ms;
+  animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: transform, opacity;
+}
+
+.DropdownMenuContent[data-side="top"],
+.DropdownMenuSubContent[data-side="top"] {
+  animation-name: slideDownAndFade;
+}
+
+.DropdownMenuContent[data-side="right"],
+.DropdownMenuSubContent[data-side="right"] {
+  animation-name: slideLeftAndFade;
+}
+
+.DropdownMenuContent[data-side="bottom"],
+.DropdownMenuSubContent[data-side="bottom"] {
+  animation-name: slideUpAndFade;
+}
+
+.DropdownMenuContent[data-side="left"],
+.DropdownMenuSubContent[data-side="left"] {
+  animation-name: slideRightAndFade;
+}
+
+@keyframes slideUpAndFade {
+  0% {
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(2px);
+  }
+  50% {
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(2px);
+  }
+  100% {
+    opacity: 1;
+    pointer-events: all;
+    transform: translateY(0);
+  }
+}
+
+/* @keyframes slideUpAndFade {
+  from {
+    opacity: 0;
+    transform: translateY(2px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+} */
+
+@keyframes slideRightAndFade {
+  from {
+    opacity: 0;
+    transform: translateX(-2px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+  }
+}
+
+@keyframes slideDownAndFade {
+  from {
+    opacity: 0;
+    transform: translateY(-2px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideLeftAndFade {
+  from {
+    opacity: 0;
+    transform: translateX(2px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* .DropdownMenuContent {
+  transform-origin: var(--radix-dropdown-menu-content-transform-origin);
+  animation: scaleIn 0.5s ease-out;
+} */
