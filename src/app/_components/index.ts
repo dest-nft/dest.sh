@@ -4,3 +4,4 @@ export * from "./IntroductionSection";
 export * from "./DynamicNftSection";
 export * from "./NestedNftSection";
 export * from "./HowItWorksSection";
+export * from "./ValuesSection";

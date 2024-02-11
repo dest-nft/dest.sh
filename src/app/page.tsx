@@ -5,6 +5,7 @@ import {
   HowItWorksSection,
   IntroductionSection,
   NestedNftSection,
+  ValuesSection,
 } from "@/app/_components";
 
 export default function Index() {
@@ -18,6 +19,7 @@ export default function Index() {
           <DynamicNftSection />
           <NestedNftSection />
           <HowItWorksSection />
+          <ValuesSection />
         </div>
         <Footer />
       </main>
