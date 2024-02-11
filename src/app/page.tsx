@@ -1,4 +1,9 @@
-import { Footer, Header, IntroductionSection } from "@/app/_components";
+import {
+  DynamicNftSection,
+  Footer,
+  Header,
+  IntroductionSection,
+} from "@/app/_components";
 
 export default function Index() {
   return (
@@ -8,6 +13,7 @@ export default function Index() {
         <Header />
         <div className="container relative z-10 mx-auto max-w-7xl px-4">
           <IntroductionSection />
+          <DynamicNftSection />
         </div>
         <Footer />
       </main>
