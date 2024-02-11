@@ -3,6 +3,7 @@ import * as DropdownMenu from "@radix-ui/react-dropdown-menu";
 import "./NavigationMenu.css";
 import dots from "@/../public/icons/menu-dots.svg";
 import Image from "next/image";
+import Link from "next/link";
 
 export function NavigationMenu() {
   return (
@@ -52,24 +53,30 @@ export function NavigationMenu() {
             </div>
             FAQ
           </DropdownMenu.Item>
-          <DropdownMenu.Item className="DropdownMenuItem flex h-12 cursor-pointer items-center rounded-xl bg-btnBGHeaderHEXItem px-5 text-base font-medium text-white  outline-none hover:text-green">
-            <div className="mr-2 flex h-5 w-5 items-center justify-center rounded-full border border-transparent">
-              <span className="h-2 w-2 rounded-full bg-green"></span>
-            </div>
-            Concept
-          </DropdownMenu.Item>
-          <DropdownMenu.Item className="DropdownMenuItem flex h-12 cursor-pointer items-center rounded-xl bg-btnBGHeaderHEXItem px-5 text-base font-medium text-white  outline-none hover:text-green">
-            <div className="mr-2 flex h-5 w-5 items-center justify-center rounded-full border border-transparent">
-              <span className="h-2 w-2 rounded-full bg-green"></span>
-            </div>
-            How it works?
-          </DropdownMenu.Item>
-          <DropdownMenu.Item className="DropdownMenuItem flex h-12 cursor-pointer items-center rounded-xl bg-btnBGHeaderHEXItem px-5 text-base font-medium text-white  outline-none hover:text-green">
-            <div className="mr-2 flex h-5 w-5 items-center justify-center rounded-full border border-transparent">
-              <span className="h-2 w-2 rounded-full bg-green"></span>
-            </div>
-            Values
-          </DropdownMenu.Item>
+          <Link href={"#concept"}>
+            <DropdownMenu.Item className="DropdownMenuItem flex h-12 cursor-pointer items-center rounded-xl bg-btnBGHeaderHEXItem px-5 text-base font-medium text-white  outline-none hover:text-green">
+              <div className="mr-2 flex h-5 w-5 items-center justify-center rounded-full border border-transparent">
+                <span className="h-2 w-2 rounded-full bg-green"></span>
+              </div>
+              Concept
+            </DropdownMenu.Item>
+          </Link>
+          <Link href={"#how-it-works"}>
+            <DropdownMenu.Item className="DropdownMenuItem flex h-12 cursor-pointer items-center rounded-xl bg-btnBGHeaderHEXItem px-5 text-base font-medium text-white  outline-none hover:text-green">
+              <div className="mr-2 flex h-5 w-5 items-center justify-center rounded-full border border-transparent">
+                <span className="h-2 w-2 rounded-full bg-green"></span>
+              </div>
+              How it works?
+            </DropdownMenu.Item>
+          </Link>
+          <Link href={"#values"}>
+            <DropdownMenu.Item className="DropdownMenuItem flex h-12 cursor-pointer items-center rounded-xl bg-btnBGHeaderHEXItem px-5 text-base font-medium text-white  outline-none hover:text-green">
+              <div className="mr-2 flex h-5 w-5 items-center justify-center rounded-full border border-transparent">
+                <span className="h-2 w-2 rounded-full bg-green"></span>
+              </div>
+              Values
+            </DropdownMenu.Item>
+          </Link>
           <DropdownMenu.Item className="DropdownMenuItem flex h-12 cursor-pointer items-center rounded-xl bg-btnBGHeaderHEXItem px-5 text-base font-medium text-white  outline-none hover:text-green">
             <div className="mr-2 flex h-5 w-5 items-center justify-center rounded-full border border-transparent">
               <span className="h-2 w-2 rounded-full bg-green"></span>
