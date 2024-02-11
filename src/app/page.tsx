@@ -2,6 +2,7 @@ import {
   DynamicNftSection,
   Footer,
   Header,
+  HowItWorksSection,
   IntroductionSection,
   NestedNftSection,
 } from "@/app/_components";
@@ -16,6 +17,7 @@ export default function Index() {
           <IntroductionSection />
           <DynamicNftSection />
           <NestedNftSection />
+          <HowItWorksSection />
         </div>
         <Footer />
       </main>
