@@ -1,11 +1,11 @@
 "use server";
 import { Result, fail, success } from "@/shared/utils/result";
-import { Maybe } from "@/shared/utils/types";
+import { Option } from "@/shared/utils/option";
 import { insertContact } from "@/services/database/repositories/contacts";
 import { newContactSchema } from "@/services/database/schema";
 import { notifyContact } from "@/services/telegram";
 
-export async function sendContact(_result: Maybe<Result>, formData: FormData) {
+export async function sendContact(_result: Option<Result>, formData: FormData) {
   const parsedNewContact = newContactSchema.safeParse({
     name: formData.get("name"),
     email: formData.get("email"),
