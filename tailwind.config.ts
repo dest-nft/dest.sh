@@ -22,6 +22,9 @@ const config: Config = {
         borderColor: "rgba(255, 255, 255, 0.7)",
         transparent: "transparent",
       },
+      animation: {
+        'spin-slow': 'spin 3s linear infinite',
+      }
     },
   },
   plugins: [],

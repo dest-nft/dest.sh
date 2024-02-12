@@ -1,4 +1,5 @@
 import {
+  ContactForm,
   DynamicNftSection,
   Footer,
   Header,
@@ -20,6 +21,7 @@ export default function Index() {
           <NestedNftSection />
           <HowItWorksSection />
           <ValuesSection />
+          <ContactForm />
         </div>
         <Footer />
       </main>
