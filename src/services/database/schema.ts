@@ -14,5 +14,8 @@ export type NewContact = typeof contacts.$inferInsert;
 export type Contact = typeof contacts.$inferSelect;
 
 export const newContactSchema = createInsertSchema(contacts, {
-  email: (schema) => schema.email.email(),
+  name: (schema) => schema.name.min(1, "Name is required"),
+  email: (schema) =>
+    schema.email.min(1, "E-mail is required").email("Invalid e-mail"),
+  message: (schema) => schema.message.min(1, "Message is required"),
 });
