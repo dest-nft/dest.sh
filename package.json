@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@radix-ui/react-accordion": "^1.1.2",
+    "@radix-ui/react-dropdown-menu": "^2.0.6",
     "@vercel/analytics": "^1.1.1",
     "@vercel/postgres": "^0.7.2",
     "drizzle-orm": "^0.29.3",

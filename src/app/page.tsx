@@ -1,10 +1,28 @@
-import { Footer } from "@/app/_components/Footer";
+import {
+  DynamicNftSection,
+  Footer,
+  Header,
+  HowItWorksSection,
+  IntroductionSection,
+  NestedNftSection,
+  ValuesSection,
+} from "@/app/_components";
 
 export default function Index() {
   return (
     <>
-      <main className="container mx-auto" />
-      <Footer />
+      <main className="h-screen w-screen">
+        <div className="container mx-auto" />
+        <Header />
+        <div className="container relative z-10 mx-auto max-w-7xl px-4">
+          <IntroductionSection />
+          <DynamicNftSection />
+          <NestedNftSection />
+          <HowItWorksSection />
+          <ValuesSection />
+        </div>
+        <Footer />
+      </main>
     </>
   );
 }

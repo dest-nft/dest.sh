@@ -1,1 +1,28 @@
 @import '../tailwind.css';
+
+html {
+  scroll-behavior: smooth;
+  /* line-height: 1.5!important; */
+}
+
+body {
+  margin: 0;
+  background-color: #000;
+   /*padding-top: 80px !important;*/
+   /*overflow-x: hidden;*/
+}
+
+body[style="pointer-events: none;"] header {
+  padding-right: var(--removed-body-scroll-bar-size);
+}
+
+main {
+  position: relative;
+  overflow-x: hidden;
+}
+
+.ellipse {
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
