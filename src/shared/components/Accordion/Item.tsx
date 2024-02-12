@@ -1,3 +1,4 @@
+"use client";
 import { forwardRef, PropsWithChildren } from "react";
 import * as RadixAccordion from "@radix-ui/react-accordion";
 import Image from "next/image";

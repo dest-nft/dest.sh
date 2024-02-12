@@ -1,3 +1,4 @@
+"use client";
 import { PropsWithChildren } from "react";
 import * as RadixAccordion from "@radix-ui/react-accordion";
 
