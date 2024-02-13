@@ -8,7 +8,7 @@ export function ContactForm() {
       <Anchor name="contact" />
       <div className="flex flex-wrap justify-between gap-8 md:flex-nowrap md:gap-0">
         <div className="max-w-xs sm:max-w-none md:max-w-[445px]">
-          <h2 className="font-ClashDisplay relative mb-6 max-w-[245px] text-start text-3xl font-semibold sm:max-w-none md:text-7xl">
+          <h2 className="relative mb-6 max-w-[245px] text-start font-clashDisplay text-3xl font-semibold sm:max-w-none md:text-7xl">
             Let’s build something great together
             <Emoji
               className="absolute right-[-10px] top-[-20px] sm:right-0 sm:top-[40px] md:right-[70px] md:top-[290px]"

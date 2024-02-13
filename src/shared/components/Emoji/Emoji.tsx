@@ -10,7 +10,7 @@ export function Emoji({ type, className }: IEEmojiProps) {
   return (
     <div
       className={twMerge(
-        "w-fit rounded-full border border-yellow p-3 backdrop-blur",
+        "h-fit w-fit rounded-full border border-yellow p-3 backdrop-blur",
         className,
       )}
     >
