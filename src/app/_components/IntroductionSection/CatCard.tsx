@@ -10,13 +10,7 @@ export function CatCard() {
   return (
     <div className="flex object-contain md:h-[400px] md:w-auto">
       <div className="absolute left-[38%] top-[57%] flex h-auto w-[320px] -translate-x-1/2 -translate-y-1/2 object-contain md:h-auto md:w-[400px]">
-        <Image
-          src={rectHero}
-          className="logo h-full w-auto"
-          width={"440"}
-          height={"491"}
-          alt="logo"
-        />
+        <Image src={rectHero} width={"440"} height={"491"} alt="logo" />
       </div>
       <div className="absolute left-[50%] top-[50%] flex h-[800px] w-[1000px] -translate-x-1/2 -translate-y-1/2 object-contain md:left-[0%] md:h-[1037px] md:w-[1236px]">
         <Image
@@ -29,7 +23,7 @@ export function CatCard() {
       </div>
       <Image
         src={mainCat}
-        className="logo relative h-full w-auto"
+        className="logo relative md:h-full md:w-full lg:h-full lg:w-auto"
         width={"263"}
         height={"314"}
         alt="logo"
