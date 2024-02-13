@@ -1,6 +1,7 @@
 import { PropsWithChildren } from "react";
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { clashDisplay, outfit } from "@/fonts";
 import { NoiseBackground } from "@/shared/components/NoiseBackground";
 import "./globals.css";
@@ -19,6 +20,7 @@ export default function RootLayout({ children }: PropsWithChildren) {
       <body className="bg-black">
         <NoiseBackground />
         {children}
+        <SpeedInsights />
       </body>
       <Analytics />
     </html>
