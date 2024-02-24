@@ -23,7 +23,7 @@ export function ServicesSection() {
       <div className="accordion-section mb-32 md:mb-44 xl:mb-64">
         <div className="title mb-16">
           <h2
-            className="font-ClashDisplay mb-6 text-start text-3xl font-semibold md:text-7xl"
+            className="mb-6 text-start font-clashDisplay text-3xl font-semibold md:text-7xl"
             data-aos="zoom-in-down"
             data-aos-duration="1000"
             data-aos-once="true"
