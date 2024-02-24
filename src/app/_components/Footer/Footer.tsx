@@ -11,7 +11,7 @@ export function Footer() {
         </div>
         <p className="text-xs">Copyright DEST © 2023</p>
       </div>
-      <nav className="flex flex-wrap gap-4">
+      <nav className="flex flex-wrap justify-center gap-4">
         <DevBrotherLink />
         <div className="flex gap-4">
           <SocialLink
