@@ -9,6 +9,10 @@ import {
   ValuesSection,
 } from "@/app/_components";
 
+export const metadata = {
+  title: "DEST",
+};
+
 export default function Index() {
   return (
     <>
