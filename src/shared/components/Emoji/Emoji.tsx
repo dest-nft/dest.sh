@@ -10,7 +10,7 @@ export function Emoji({ type, className }: IEEmojiProps) {
   return (
     <div
       className={twMerge(
-        "flex h-[68px] w-[68px] items-center justify-center rounded-full border border-yellow p-3 backdrop-blur",
+        "relative flex h-[68px] w-[68px] items-center justify-center rounded-full border border-yellow p-3 backdrop-blur",
         className,
       )}
     >
@@ -18,8 +18,7 @@ export function Emoji({ type, className }: IEEmojiProps) {
         src={`/emojis/${type}.png`}
         alt="emoji"
         className="scale-75"
-        layout="fill"
-        objectFit="contain"
+        fill
       />
     </div>
   );
