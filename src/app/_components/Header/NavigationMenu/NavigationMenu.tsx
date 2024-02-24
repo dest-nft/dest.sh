@@ -77,18 +77,14 @@ export function NavigationMenu() {
               Values
             </DropdownMenu.Item>
           </Link>
-          <DropdownMenu.Item className="DropdownMenuItem flex h-12 cursor-pointer items-center rounded-xl bg-btnBGHeaderHEXItem px-5 text-base font-medium text-white  outline-none hover:text-green">
-            <div className="mr-2 flex h-5 w-5 items-center justify-center rounded-full border border-transparent">
-              <span className="h-2 w-2 rounded-full bg-green"></span>
-            </div>
-            Approach
-          </DropdownMenu.Item>
-          <DropdownMenu.Item className="DropdownMenuItem flex h-12 cursor-pointer items-center rounded-xl bg-btnBGHeaderHEXItem px-5 text-base font-medium text-white  outline-none hover:text-green">
-            <div className="mr-2 flex h-5 w-5 items-center justify-center rounded-full border border-transparent">
-              <span className="h-2 w-2 rounded-full bg-green"></span>
-            </div>
-            Contact us
-          </DropdownMenu.Item>
+          <Link href={"#services"}>
+            <DropdownMenu.Item className="DropdownMenuItem flex h-12 cursor-pointer items-center rounded-xl bg-btnBGHeaderHEXItem px-5 text-base font-medium text-white  outline-none hover:text-green">
+              <div className="mr-2 flex h-5 w-5 items-center justify-center rounded-full border border-transparent">
+                <span className="h-2 w-2 rounded-full bg-green"></span>
+              </div>
+              Services
+            </DropdownMenu.Item>
+          </Link>
         </DropdownMenu.Content>
       </DropdownMenu.Portal>
     </DropdownMenu.Root>
