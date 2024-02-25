@@ -6,3 +6,4 @@ export * from "./DynamicNftSection";
 export * from "./NestedNftSection";
 export * from "./HowItWorksSection";
 export * from "./ValuesSection";
+export * from "./ServicesSection";
