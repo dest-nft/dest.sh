@@ -16,7 +16,7 @@ export function DevBrotherLink() {
       />
       <div className="flex flex-col">
         <p className="text-xl font-bold md:text-2xl md:leading-7">DevBrother</p>
-        <p className="text-xs font-medium">Top Web Developer</p>
+        <p className="text-xs font-medium">Your Software Engineering Family</p>
       </div>
     </a>
   );

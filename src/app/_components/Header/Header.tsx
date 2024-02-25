@@ -10,14 +10,15 @@ export function Header() {
         <div className="wrapper flex items-center justify-between">
           <DestLogo />
           <div className="nav flex items-center gap-5">
-            <a
-              className="hidden h-16 w-[74px] items-center rounded-xl bg-btnBGHeader px-5 py-4 font-medium uppercase opacity-90 hover:opacity-100 md:flex"
-              href="https://devbrother.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              faq
-            </a>
+            {/*FIXME: Add proper FAQ page*/}
+            {/*<a*/}
+            {/*  className="hidden h-16 w-[74px] items-center rounded-xl bg-btnBGHeader px-5 py-4 font-medium uppercase opacity-90 hover:opacity-100 md:flex"*/}
+            {/*  href="https://devbrother.com/"*/}
+            {/*  target="_blank"*/}
+            {/*  rel="noreferrer"*/}
+            {/*>*/}
+            {/*  faq*/}
+            {/*</a>*/}
             <div className="flex h-14 items-center gap-2 rounded-xl bg-btnBG p-[6px] md:h-16">
               <a
                 className="flex h-[42px] w-full items-center justify-center rounded-xl bg-green px-4 text-sm font-medium text-black outline-none hover:bg-yellow md:h-[52px] md:px-5 lg:text-base"

@@ -17,20 +17,17 @@ export const metadata = {
 export default function Index() {
   return (
     <>
-      <main className="h-screen w-screen">
-        <div className="container mx-auto" />
-        <Header />
-        <div className="container relative z-10 mx-auto max-w-7xl px-4">
-          <IntroductionSection />
-          <DynamicNftSection />
-          <NestedNftSection />
-          <HowItWorksSection />
-          <ValuesSection />
-          <ServicesSection />
-          <ContactForm />
-        </div>
-        <Footer />
+      <Header />
+      <main className="container relative z-10 mx-auto max-w-7xl px-4">
+        <IntroductionSection />
+        <DynamicNftSection />
+        <NestedNftSection />
+        <HowItWorksSection />
+        <ValuesSection />
+        <ServicesSection />
+        <ContactForm />
       </main>
+      <Footer />
     </>
   );
 }

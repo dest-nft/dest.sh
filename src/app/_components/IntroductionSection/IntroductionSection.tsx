@@ -13,7 +13,7 @@ export function IntroductionSection() {
             data-aos-duration="1000"
             data-aos-once="true"
           >
-            Empowering Your Business with Dynamic Nested NFTs
+            Empowering Your Project with Dynamic Nested NFTs
           </h1>
           <p
             className="relative text-start text-base font-normal opacity-60 after:absolute after:-top-9 after:block
@@ -22,7 +22,7 @@ export function IntroductionSection() {
             data-aos-duration="1000"
             data-aos-once="true"
           >
-            Revolutionizing SaaS Solutions for the Future
+            Welcome to DEST: Where Tokenization Meets Innovation
           </p>
         </div>
         <div className="imgs-wrap relative ml-[70px] md:absolute md:right-0 md:top-96 md:ml-[0px] xl:top-[250px]">

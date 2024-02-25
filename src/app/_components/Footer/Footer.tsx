@@ -4,12 +4,12 @@ import { DevBrotherLink } from "@/app/_components/Footer/DevBrotherLink";
 
 export function Footer() {
   return (
-    <footer className="container mx-auto my-8 flex flex-wrap items-center justify-center gap-4 sm:justify-between md:my-10">
+    <footer className="container mx-auto my-8 flex max-w-7xl flex-wrap items-center justify-center gap-4 px-4 sm:justify-between md:my-10">
       <div className="flex flex-col">
         <div className="mb-3 flex">
           <DestLink />
         </div>
-        <p className="text-xs">Copyright DEST © 2023</p>
+        <p className="text-xs">Copyright DEST © 2024</p>
       </div>
       <nav className="flex flex-wrap justify-center gap-4">
         <DevBrotherLink />
