@@ -11,15 +11,16 @@ export function DynamicNftSection() {
           data-aos-duration="1000"
           data-aos-once="true"
         >
-          Dynamic NFT
+          Dynamic NFTs
         </h2>
         <p
-          className="text-center text-base font-normal opacity-60 md:text-xl"
+          className="text-base font-normal opacity-60 md:text-xl"
           data-aos="zoom-in-down"
           data-aos-duration="1000"
           data-aos-once="true"
         >
-          Revolutionizing SaaS Solutions for the Future
+          Dynamic NFTs redefine digital ownership by imbuing NFTs with
+          programmable capabilities, enabling them to change and adapt over time
         </p>
       </div>
       <div className="content mx-auto flex items-center justify-center rounded-2xl">

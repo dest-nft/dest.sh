@@ -13,15 +13,17 @@ export function NestedNftSection() {
           data-aos-duration="1000"
           data-aos-once="true"
         >
-          Nested NFT
+          Nested NFTs
         </h2>
         <p
-          className="text-center text-base font-normal opacity-60 md:text-xl"
+          className="text-base font-normal opacity-60 md:text-xl"
           data-aos="zoom-in-down"
           data-aos-duration="1000"
           data-aos-once="true"
         >
-          Revolutionizing SaaS Solutions for the Future
+          Nested NFTs introduce a hierarchical structure to tokens, allowing for
+          the encapsulation of one NFT within another, fostering intricate
+          ownership relationships and expanded utility within digital ecosystems
         </p>
       </div>
       <div className="content mx-auto flex h-[320px] max-w-[850px] items-center justify-evenly rounded-2xl bg-gray py-32 sm:h-[405px] md:py-44 xl:w-[850px] xl:py-72">

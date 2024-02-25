@@ -21,11 +21,11 @@ export function ValuesSection() {
             data-aos-duration="1000"
             data-aos-once="true"
           >
-            Revolutionizing SaaS Solutions for the Future
+            Discover the Core Principles Driving DEST
           </p>
         </div>
         <ul className="flex flex-wrap gap-4 md:gap-9">
-          <ValueCard name={"Multichain support"} />
+          <ValueCard name={"Multi-Chain Support"} />
           <ValueCard name={"Out-of-the-box Solutions"} />
           <ValueCard name={"Highly Customizable"} />
           <ValueCard name={"Developer Friendly"} />

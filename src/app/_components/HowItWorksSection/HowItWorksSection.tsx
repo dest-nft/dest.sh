@@ -12,7 +12,7 @@ export function HowItWorksSection() {
       <div className="how-section mb-32 flex flex-col items-center gap-20 md:mb-44 xl:mb-64">
         <div className="title mx-auto text-center md:mx-0 md:text-start">
           <h2
-            className="mb-7 font-clashDisplay text-3xl font-semibold leading-none md:text-[90px]"
+            className="mb-7 text-center font-clashDisplay text-3xl font-semibold leading-none md:text-[90px]"
             data-aos="zoom-in-down"
             data-aos-duration="1000"
             data-aos-once="true"
@@ -25,7 +25,9 @@ export function HowItWorksSection() {
             data-aos-duration="1000"
             data-aos-once="true"
           >
-            Revolutionizing SaaS Solutions for the Future
+            DEST transforms digital asset ownership with Dynamic NFTs and Nested
+            NFTs, where tokens undergo changes and gain new attributes upon
+            nesting, enabling dynamic evolution and expanded functionality
           </p>
         </div>
         <div className="imgs-wrap relative">
