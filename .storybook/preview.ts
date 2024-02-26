@@ -11,7 +11,7 @@ const preview: Preview = {
       values: [
         {
           name: "noise",
-          value: "url(../public/images/noise.png)",
+          value: "url(../public/images/noise.webp)",
         },
       ],
     },

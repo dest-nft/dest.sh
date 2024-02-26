@@ -15,7 +15,7 @@ export function Emoji({ type, className }: IEEmojiProps) {
       )}
     >
       <Image
-        src={`/emojis/${type}.png`}
+        src={`/emojis/${type}.webp`}
         alt="emoji"
         className="scale-75"
         fill

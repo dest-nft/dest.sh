@@ -34,7 +34,7 @@ export function DynamicNftSection() {
             </div>
           </li>
           <li
-            className={`relative flex h-[400px] w-[296px] items-center justify-start rounded-[14px] bg-gray bg-[url('../public/icons/snow.gif')] bg-cover bg-no-repeat`}
+            className={`relative flex h-[400px] w-[296px] items-center justify-start rounded-[14px] bg-gray bg-[url('../public/icons/snow.webp')] bg-cover bg-no-repeat`}
           >
             <div className="absolute bottom-[-50px] right-1/2 z-10 flex h-[72px] w-[72px] translate-x-1/2 rotate-90 object-contain lg:bottom-[50%] lg:right-[-15px] lg:translate-y-1/2 lg:rotate-0">
               <ArrowDynamic />
@@ -42,7 +42,7 @@ export function DynamicNftSection() {
           </li>
 
           <li
-            className={`relative flex h-[400px] w-[296px] items-center justify-start rounded-[14px] bg-gray bg-[url('../public/icons/bg-desert.png')] bg-cover bg-no-repeat`}
+            className={`relative flex h-[400px] w-[296px] items-center justify-start rounded-[14px] bg-gray bg-[url('../public/icons/bg-desert.webp')] bg-cover bg-no-repeat`}
           ></li>
         </ul>
       </div>
