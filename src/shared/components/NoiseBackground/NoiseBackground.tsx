@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import noise from "../../../../public/images/noise.png";
+import noise from "../../../../public/images/noise.webp";
 
 export function NoiseBackground() {
   return (

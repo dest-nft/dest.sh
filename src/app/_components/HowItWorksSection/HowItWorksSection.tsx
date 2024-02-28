@@ -1,7 +1,7 @@
 import ellipseCat from "@/../public/icons/ellipse-content.svg";
 import arrowRight from "@/../public/icons/arrow-right.svg";
-import mainCat from "@/../public/icons/cat-main.png";
-import glasses from "@/../public/icons/glasses.png";
+import mainCat from "@/../public/icons/cat-main.webp";
+import glasses from "@/../public/icons/glasses.webp";
 import { Anchor } from "@/shared/components/Anchor";
 import Image from "next/image";
 

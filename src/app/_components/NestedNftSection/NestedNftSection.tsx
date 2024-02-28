@@ -1,7 +1,7 @@
 import Image from "next/image";
-import leftCat from "@/../public/icons/cat-left.png";
-import mainCat from "@/../public/icons/cat-main.png";
-import rightCat from "@/../public/icons/cat-right.png";
+import leftCat from "@/../public/icons/cat-left.webp";
+import mainCat from "@/../public/icons/cat-main.webp";
+import rightCat from "@/../public/icons/cat-right.webp";
 
 export function NestedNftSection() {
   return (

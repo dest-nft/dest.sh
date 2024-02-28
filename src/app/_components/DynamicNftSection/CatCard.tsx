@@ -1,4 +1,4 @@
-import mainCat from "@/../public/icons/cat-main.png";
+import mainCat from "@/../public/icons/cat-main.webp";
 import Image from "next/image";
 
 export function CatCard() {

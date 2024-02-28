@@ -1,9 +1,9 @@
 import Image from "next/image";
 import rectHero from "@/../public/icons/rectangle-hero.svg";
 import ellipseCat from "@/../public/icons/ellipse-content.svg";
-import mainCat from "@/../public/icons/cat-main.png";
-import glasses from "@/../public/icons/glasses.png";
-import hat from "@/../public/icons/hat.png";
+import mainCat from "@/../public/icons/cat-main.webp";
+import glasses from "@/../public/icons/glasses.webp";
+import hat from "@/../public/icons/hat.webp";
 import { Emoji } from "@/shared/components/Emoji";
 
 export function CatCard() {
