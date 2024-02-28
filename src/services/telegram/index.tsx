@@ -13,7 +13,5 @@ export async function notifyContact(contact: Contact) {
 ${contact.message}
   `.trim();
 
-  await bot.telegram.sendMessage(process.env.TELEGRAM_CHAT_ID, message, {
-    parse_mode: "MarkdownV2",
-  });
+  await bot.telegram.sendMessage(process.env.TELEGRAM_CHAT_ID, message);
 }
