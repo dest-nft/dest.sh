@@ -10,7 +10,7 @@ export function ServicesSection() {
     {
       title: "Multi-Standard support",
       description:
-        "Multi-Standard support within the DEST protocol ensures compatibility with a variety of blockchain protocols and standards, including ERC11555 Multi-Token Standart, ERC6551 Token Bound Account and RMRK NFT Standard. This feature enables developers to leverage different blockchain networks and standards when creating and managing DEST tokens, providing flexibility and interoperability within the ecosystem.",
+        "Multi-Standard support within the DEST protocol ensures compatibility with a variety of blockchain protocols and standards, including ERC1155 Multi-Token Standart, ERC6551 Token Bound Account and RMRK NFT Standard. This feature enables developers to leverage different blockchain networks and standards when creating and managing DEST tokens, providing flexibility and interoperability within the ecosystem.",
     },
     {
       title: "Creators panel",
