@@ -13,6 +13,11 @@ export function ServicesSection() {
         "Multi-Standard support within the DEST protocol ensures compatibility with a variety of blockchain protocols and standards, including ERC1155 Multi-Token Standart, ERC6551 Token Bound Account and RMRK NFT Standard. This feature enables developers to leverage different blockchain networks and standards when creating and managing DEST tokens, providing flexibility and interoperability within the ecosystem.",
     },
     {
+      title: "Rendering Engine",
+      description:
+        "DEST boasts versatile support for rendering engines, encompassing both 2D and 3D capabilities, alongside the flexibility for custom implementations to meet specific business needs. This comprehensive approach ensures seamless visualization of DEST tokens across platforms while empowering developers to tailor token experiences for diverse applications.",
+    },
+    {
       title: "Creators panel",
       description:
         "The Creators Panel is a powerful tool for crafting and managing DEST tokens. It offers an intuitive interface for creating various types of tokens, organizing token collections, and customizing nesting requirements. With built-in analytics and role-based access control, users can efficiently manage their token portfolios while ensuring security and privacy. Integrated with other services, the Creators Panel provides a comprehensive solution for token creators, offering support, resources, and technical assistance for seamless token management experiences.",
